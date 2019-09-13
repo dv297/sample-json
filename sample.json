@@ -4,13 +4,13 @@
       "instances": [
         {
           "key": "splunk1",
-          "url": "http://splunk.com",
-          "api-url": "http://splunk.com/api"
+          "browseURL": "http://splunk.com",
+          "restAPIURL": "http://splunk.com/api"
         },
         {
           "key": "splunk2",
-          "url": "http://splunk2.com",
-          "api-url": "http://splunk2.com/api"
+          "browseURL": "http://splunk2.com",
+          "restAPIURL": "http://splunk2.com/api"
         }
       ]
     },
@@ -18,12 +18,12 @@
       "instances": [
         {
           "key": "jira1",
-          "issueURL": "https://jira1.com/browse/",
+          "browseURL": "https://jira1.com/browse/",
           "restAPIURL": "https://jira1.com/rest/api/latest"
         },
         {
           "key": "jira2",
-          "issueURL": "https://jira2.com/browse/",
+          "browseURL": "https://jira2.com/browse/",
           "restAPIURL": "https://jira2.com/rest/api/latest"
         }
       ]
