@@ -36,8 +36,7 @@
       "splunk-instance": "splunk2",
       "fieldValues": {
         "project": "MAVEN",
-        "customfield_1234": "1234",
-        "customfield_456": "5292"
+        "summary": "Event occurred ${splunk_event_count} time(s) during time range of ${splunk_search_range}. \n\nError:\n{code}${splunk_event_content}{code} \n\n Search String:\n{code}${splunk_search_string}{code}"
       }
     },
     {
@@ -46,8 +45,7 @@
       "splunk-instance": "splunk1",
       "fieldValues": {
         "project": "MAVEN3",
-        "customfield_988": "asdf",
-        "customfield_456": "5292"
+        "summary": "Event occurrence: ${splunk_event_count} time(s) \n\nTime Range: ${splunk_search_range}. \n\nError:\n{code}${splunk_event_content}{code} \n\n Search String:\n{code}${splunk_search_string}{code}"
       }
     }
   ]
